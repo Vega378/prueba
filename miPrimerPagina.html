@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Pacifico" rel="stylesheet">
+	<title> Mi primera página WEB </title>
+</head>
+<!-- #0277BD 
+#0288D1
+#76FF03
+#FF7043
+#F44336
+#FFA000-->
+<body bgcolor="#E6EE9C">
+	<header>
+		<img src="conocimiento.jpg" title="logo">
+		<h1> Líderes del conocimiento </h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#"> Inicio </a></li>
+			<li><a href="about.html#"> About </a></li>
+			<li><a href="blog.html#"> Blog </a></li>
+			<li><a href="multimedia.html#"> Multimedia </a></li>
+			<li><a href="redessociales.html#"> Redes sociales </a>
+			<ul>
+				<li> Facebook </li>
+				<li> Twitter </li>
+			</ul>
+			</li>
+		</ul>
+	</nav>
+	<div id="contenido">
+		<h2> Daniel Sánchez Vega </h2>
+			<p> Este es un club de tareas y talleres, que se preocupa por una educación de calidad, con valores y con un enfoque bien definido. Nuestro pricipal objetivo es alimentar la conginición de niños y adolescentes y que esta se desarrolle de forma autónoma. </p>
+			<p> Si quieres saber más, dejanos un mensaje, que con gusto te atenderemos. </p>
+			<hr>
+			<section>
+				<fieldset>
+					<legend> Contacto </legend>
+					<form method="post" action="gardar.php">
+						<label> Nombre: &nbsp </label>
+						<input type="text" name="nombre" required placeholder="nombre completo">
+						<br>
+						<br>
+						<label> Correo: &nbsp </label>
+						<input type="email" name="name" required placeholder="tucorreo@server.com">
+						<br>
+						<br>
+						<label> Comentarios: &nbsp </label>
+						<textarea></textarea>
+						<br>
+						<br>
+						<input id="enviar" type="submit" value="enviar">
+						<input id="cancelar" type="reset" value="cancelar">
+					</form>
+						
+				</fieldset>
+			</section>
+			<section id="sitio">
+				<article class"sitios">
+					<h2> Contamos con: </h2>
+					<p> - Talleres de lectura </p>
+					<p>	- Talleres de redacción </p>
+					<p>	- Ayuda con tareas </p>
+					<p>	- Cursos de regularización </p>
+					<p>	- Y mucho más... </p>
+				</article>
+				<article class="sitios">
+					<h2> Aulas múltiples y para todos </h2>
+					<img src="portada.png">
+				</article>
+				<article class="sitios">
+					<h2> ¿Qué color te define? </h2>
+					<fieldset>
+						<legend> Color </legend>
+						<form>
+							<label> Selecciona: </label>
+							<input type="color">
+							<br>
+							<input type="submit" value="Buscar">
+						</form>
+					</fieldset>
+				</article>
+			</section>
+	</div>
+	<hr>
+		<footer>
+			<p> Todos lo derechos DSV </p>
+		</footer>
+	<hr>
+	</body>
+	</html>
